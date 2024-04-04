@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance</title>
+</head>
+<body>
+    <h1>Student Attendance</h1>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}  {{ form.as_p }}  <button type="submit">Mark Attendance</button>
+    </form>
+
+    <h1>Attendance Records</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Attendance Status</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in attendance_records %}
+            <tr>
+                <td>{{ record.student_name }}</td>
+                <td>{{ record.attendance_status }}</td>
+                <td>{{ record.date }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+</body>
+</html>

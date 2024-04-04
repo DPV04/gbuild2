@@ -1,0 +1,46 @@
+{% extends 'm.html' %}
+{% block start %}
+
+    <h1>Marks record</h1>
+
+    <!-- {% if totalspent %}
+    <p>{{ totalspent }}</p>
+      {% endif %}  -->
+   
+    <form method="POST">
+        {% csrf_token %}  {{ form.as_p }}  <button type="submit">add expense</button>
+    </form>
+
+   
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sem</th>
+                <th>subject1 marks</th>
+                <th>subject2 marks</th>
+                <th>subject3 marks</th>
+                <th>Total</th>
+                <th>Percentage</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in Marks %}
+            <tr>
+                <td>{{ record.sem }}</td>
+                <td>{{ record.sub1marks }}</td>
+                <td>{{ record.sub2marks }}</td>
+                <td>{{ record.sub2marks }}</td>
+                {% if total %}
+                <td>{{ total }}</td>
+                 {% endif %} 
+                 {% if percent %}
+                <td>{{ percent }}</td>
+                 {% endif %} 
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+{% endblock start %} 

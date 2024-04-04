@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Student Attendance</title>
-</head>
-<body>
+
+
+{% extends 'm.html' %}
+{% block start %}
     <h1>Student Attendance</h1>
     {% if message %}
         <p>{{ message }}</p>
@@ -15,10 +12,10 @@
     </form>
 
     <h1>Attendance Records</h1>
-    <table>
+    <table class="table">
         <thead>
             <tr>
-                <th>Student Name</th>
+                <th>Subject Name</th>
                 <th>Attendance Status</th>
                 <th>Date</th>
             </tr>
@@ -26,7 +23,7 @@
         <tbody>
             {% for record in attendance_records %}
             <tr>
-                <td>{{ record.student_name }}</td>
+                <td>{{ record.subject_name }}</td>
                 <td>{{ record.attendance_status }}</td>
                 <td>{{ record.date }}</td>
             </tr>
@@ -34,5 +31,4 @@
         </tbody>
     </table>
     
-</body>
-</html>
+ {% endblock start %}

@@ -45,7 +45,7 @@ def index(request):
 
  Marks=marks.objects.all()  
  total = sub1marks+sub2marks+sub3marks
- percent = (total/3)*100
+ percent = (total/300)*100
 
 #   totalspent=str(totalspent)
  context = {'form': form , 'Marks':Marks , 'total':total,'percent':percent}

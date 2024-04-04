@@ -1,6 +1,6 @@
 #  hi every body this is
 
-##1login page-
+## 1login page-
 ###first to creata the login credentials of varun i have created a login credential by creating a superuser in the django admin app..this way only varun's credentials can give access to the webapp..
 
 ##varun's credentials-

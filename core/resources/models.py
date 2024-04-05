@@ -2,18 +2,10 @@
 
 # Create your models here.
 from django.db import models
+from django.contrib.auth.models import*
 
-
-class Book(models.Model):
-    title = models.CharField(max_length=100)
-    author = models.CharField(max_length=100)
-    pdf = models.FileField(upload_to='books/pdfs/')
+class student(models.Model):
     
-
-    def __str__(self):
-        return self.title
-
-    def delete(self, *args, **kwargs):
-        self.pdf.delete()
-        self.cover.delete()
-        super().delete(*args, **kwargs)
+    name =models.CharField(max_length=100)
+    subject=models.TextField()
+    image=models.FileField()

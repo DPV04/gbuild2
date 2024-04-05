@@ -1,0 +1,101 @@
+___
+# Level - 2 
+___
+# TASK 1: Javascript
+___
+####  JavaScript (often abbreviated as JS) is a high-level, interpreted programming language that enables you to create dynamic and interactive elements on web pages. It's one of the core technologies alongside HTML and CSS that make up the foundation of the World Wide Web
+___
+##  Project :
+   ####  In this project ,  I created takes the marks of students and calculates the total marks , percentage and rank . I used html  and basic javascript functions to calculate the parameters.
+
+![marvel task1](https://github.com/DPV04/marvel/assets/122711224/dc62be64-c7df-408c-b390-57e863eb2609)
+![marvel task11](https://github.com/DPV04/marvel/assets/122711224/4e510bc2-bdcd-4691-b305-c3a8a5216a27)
+
+___
+# TASK 2: Ascynchronous Javascript
+___
+####  Async  JS help in making the websites responsive even when with requested process going on in the background. It helps in dealing with real-time data . The most used in functions in Asyns Js include  promises, await,callbacck functons.
+___
+##  Project :
+   ####  In this project ,  I created a webpage that takes in user input and returns a random computer generated value . This value is generated using the random function and it has been implemented using the callback function.
+
+![random number generator - Google Chrome 30-03-2024 06_11_16 PM](https://github.com/DPV04/marvel/assets/122711224/f5fbc13d-c52f-423b-b9b7-2da53846187e)
+![script js - marvel2 - Visual Studio Code 30-03-2024 06_11_50 PM](https://github.com/DPV04/marvel/assets/122711224/83f93afb-72e7-41d4-9df2-f8059e25563f)
+
+___
+# TASK 3: Promises
+___
+#### In the above project we have used promises , this function allows the program to continue execute unless there is an error . When there is an error it shows error message. To implement promises we use .then, .catch operations
+___
+##  Project :
+   ####  In this project ,  I created a webpage that takes in user input and returns a random computer generated value . This value is generated using the random function and it has been implemented using the callback function.
+
+
+![script js - marvel2 - Visual Studio Code 30-03-2024 06_11_50 PM](https://github.com/DPV04/marvel/assets/122711224/83f93afb-72e7-41d4-9df2-f8059e25563f)
+___
+# TASK 4: UBUNTU command line
+___
+####  Ubuntu is a free operating system based on linux. In the below task we have to contactinate two files and display them. 
+___
+## Procedure
+
+##### - First create an directory using the command 'mk dir<name>'.
+ ##### - Access the directory using 'cd'  command and and create  new file 'touch < name of file>'
+##### -Create 2600 folders in this folder 'mkdir -p a[1..2600]'
+##### -Concatente 2 text files and display ' echo "< text content-1 >" >> f1
+  echo "< text content-2 >" >> f2
+  cat f1 f2 > f3 '
+##### - F3 stores the values of f1 and f2.
+___
+![WhatsApp Image 2024-01-07 at 5 39 25 PM](https://github.com/DPV04/marvel/assets/122711224/b108f0f6-3eff-4837-abbe-5ee11cc86202)
+![WhatsApp Image 2024-01-07 at 5 39 26 PM](https://github.com/DPV04/marvel/assets/122711224/93c7590f-91cc-410f-bb9c-d8c756bf7c28)
+![WhatsApp Image 2024-01-07 at 5 39 25 PM (1)](https://github.com/DPV04/marvel/assets/122711224/92a5b545-4a38-4d68-ad33-676a16cada78)
+___
+# TASK 5: VI 
+___
+#### VI  is a powerful and screen-oriented text editor widely used in Linux and Unix-based operating systems. Some of the most commonly used commands are 
+
+___
+## Commands
+
+##### - 'i' : insert data 
+ ##### - 'esc' : escape from the current mode
+##### -':wq' : save and exit
+##### -':r' : Read the file
+___
+
+![WhatsApp Image 2024-03-30 at 7 34 32 PM](https://github.com/DPV04/marvel/assets/122711224/c46a8fdc-1dbf-4932-9fef-d24bf7107ab5))
+___
+
+# TASK 6: Cloud computing
+___
+#### Cloud computing, is renting computing power and resources over the internet, instead of having your own physical hardware like a database to store data or a Server for computations. There are many services that companies like Aws, google cloud, provide like SaaS, IaaS,PaaS,FaaS.
+___
+## Procedure
+
+##### - Go to network and sharing center and enable network discovery and file and printer sharing in advanced sharing settings for both private and public modes.
+
+##### -Disable password protected sharing under all network settings.
+
+##### -Go to SSDP discovery service and under properties, set startup type to automatic.
+
+##### -Do the same for UPnP Device Host, Function Discovery Provider Host and Function Discovery Resource Publication .
+
+##### -Select the folder that you want to share and under its properties, go to Sharing tab, select Advanced Sharing. Edit the settings as per your needs and apply. Then click the Share button to share the folder.
+___
+![marvel Properties 30-03-2024 08_33_17 PM](https://github.com/DPV04/marvel/assets/122711224/bf91e28e-f9ec-4209-907e-1c669893be6b)
+![Services 30-03-2024 08_33_49 PM](https://github.com/DPV04/marvel/assets/122711224/5e3e2760-062f-4a0b-a81c-0a305d9b2537)
+
+___
+# TASK 7: Linux continued
+___
+####  In this task , zipped a folder a folder in the terminal window of ubuntu.To do this we used commands such as gzip,tar ,gunzip.
+___
+## Procedure:
+##### - First I piped the information from using the '|' operator into a textfile. Here I used grep to filter out the needed information and then used the '>' redirect operator to redirect it data to a text file.
+ ##### - Now using the gzip command i was able zip the txt file.
+##### - Using ther 'tar' and 'csvf'  i was able to zip the folder
+___
+![WhatsApp Image 2024-03-31 at 11 43 02 AM](https://github.com/DPV04/marvel/assets/122711224/2992c1f2-e156-4019-97a1-8511a3bb21c4)
+![WhatsApp Image 2024-03-31 at 11 43 20 AM](https://github.com/DPV04/marvel/assets/122711224/9fe32f15-e3eb-4136-bd4f-a070d90d7892)
+

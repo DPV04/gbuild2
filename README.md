@@ -60,6 +60,8 @@
 ![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 ![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 09_21_12 AM](https://github.com/DPV04/gbuild2/assets/122711224/706dcd16-6b04-41ab-b5ef-0bab0aa1bd40)
 09_20_54 AM](https://github.com/DPV04/gbuild2/assets/122711224/d68d0566-0d2f-4b58-8e4b-1a482198e2f6)
 ![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 09_20_44 AM](https://github.com/DPV04/gbuild2/assets/122711224/ec7dbf64-c0a8-4f1b-ac6a-e6a16c8be113)
+![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 09_25_36 AM](https://github.com/DPV04/gbuild2/assets/122711224/fd730c0e-c7cd-4f5d-b970-adfe9dec7614)
+
 
 ## Watch the below video demonstration
 [![Watch the video]](https://youtu.be/oq9dUdRyqRY)

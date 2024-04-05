@@ -42,7 +42,8 @@
 
 ## 8Resources-
 ### In this app varun can store all his textbook , pdfs, and other resources .
-![Editing gbuild2_README md at main · DPV04_gbuild2 - Google Chrome 04-04-2024 07_49_16 PM](https://github.com/DPV04/gbuild2/assets/122711224/5cb9d81e-b829-43e6-9c3f-238bb76fea8c)
+
+![Document - Google Chrome 05-04-2024 09_19_06 AM](https://github.com/DPV04/gbuild2/assets/122711224/66e97750-52e7-4cee-8174-f3720d159928)
 
  # Noteable technologies Used:
  ## Database- SQlite3
@@ -51,6 +52,15 @@
  ## file Handling - Pillow,django's FileSystemStorage, Media Files
  ## Userauthentication - django User authentication
  # Backend framework -DJANGO
+
+ # Database Images-
+ ![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 08_26_46 AM](https://github.com/DPV04/gbuild2/assets/122711224/99192cda-75a0-409b-ba47-3a599a496000)
+
+![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 08_32_43 AM](https://github.com/DPV04/gbuild2/assets/122711224/8f02a557-efa2-48f3-829c-2c9c337f15e2)
+![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 09_17_16 AM](https://github.com/DPV04/gbuild2/assets/122711224/5c269eeb-af86-4e06-8405-dc24ad85aae2)
+![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 09_20_19 AM](https://github.com/DPV04/gbuild2/assets/122711224/08e1fec8-896e-4557-8b71-bfe08accffc8)
+![db sqlite3 - gbuild2 - Visual Studio Code 05-04-2024 09_21_12 AM](https://github.com/DPV04/gbuild2/assets/122711224/0aa0e25e-c21a-4e8d-a9bf-29d111819b8f)
+![DESKTOP-QH0OS2Q 30-03-2024 08_34_07 PM](https://github.com/DPV04/gbuild2/assets/122711224/259d4afe-1bdf-4f8a-9bc2-b89ce97cbdcb)
 
 ## Watch the below video demonstration
 [![Watch the video]](https://youtu.be/oq9dUdRyqRY)

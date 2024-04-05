@@ -1,16 +1,16 @@
 #  hi every body this is
 
 ## 1login page-
-###first to creata the login credentials of varun i have created a login credential by creating a superuser in the django admin app..this way only varun's credentials can give access to the webapp..
+### first to creata the login credentials of varun i have created a login credential by creating a superuser in the django admin app..this way only varun's credentials can give access to the webapp..
 
-##varun's credentials-
-###username= varunuvce
-###password=varun@123
+## varun's credentials-
+### username= varunuvce
+### password=varun@123
 
 ![127 0 0 1_8000_login_ - Google Chrome 04-04-2024 07_09_19 PM](https://github.com/DPV04/gbuild2/assets/122711224/f017f836-1d2b-4653-8351-156219a52e9c)
 
 ## 2home page-
-###In this page varun can get access to his needed apps for him to work better.This page also has logout button for him log out
+### In this page varun can get access to his needed apps for him to work better.This page also has logout button for him log out
 
 ![127 0 0 1_8000_login_ - Google Chrome 04-04-2024 07_18_28 PM](https://github.com/DPV04/gbuild2/assets/122711224/5a2f4216-d051-4573-92ac-c1fbaa49c03b)
 
